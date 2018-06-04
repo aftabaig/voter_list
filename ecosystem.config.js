@@ -28,7 +28,7 @@ module.exports = {
       user : 'aftab',
       host : 'tabdeeliapp.ssasoft.com',
       ref  : 'origin/master',
-      repo : 'https://git.ssasoft.com/aftab.akhtar/voter_list.git',
+      repo : 'git@git.ssasoft.com:voter_list.git',
       path : '/home/aftab/voter_list',
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env staging'
     }
