@@ -1,13 +1,12 @@
 {
-  "name": "tabdeeli",
+  "name": "voter_list",
   "version": "1.0.0",
   "description": "",
   "main": "./bin/www.js",
   "scripts": {
     "start:dev": "nodemon ./bin/www.js",
     "start": "node ./bin/www.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "generate-app-key": "node ./bin/app-key-generator.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
