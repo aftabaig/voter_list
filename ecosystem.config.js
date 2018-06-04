@@ -24,7 +24,7 @@ module.exports = {
    */
   deploy : {
     staging : {
-      key  : '/Users/aftab.akhtar/.ssh/tabdeeli',
+      key  : '/Users/ssasoft/.ssh/ssasoft-gitlab',
       user : 'aftab',
       host : 'tabdeeliapp.ssasoft.com',
       ref  : 'origin/master',
