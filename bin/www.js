@@ -3,7 +3,7 @@ const app = require("../app");
 const finalHandler = require("finalhandler");
 const static = require("node-static");
 
-const port = parseInt(process.env.PORT, 10) || 8000;
+const port = parseInt(process.env.PORT, 10) || 8002;
 app.set('port', port);
 
 var file = new static.Server('./public');
